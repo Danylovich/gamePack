@@ -1,0 +1,103 @@
+body{
+	text-align: center;
+	background-color: #ff0;
+}
+
+#MyCanvas{
+	position: absolute;
+	left: 50%;	
+	margin-left: -300px;
+	background-image: url(Space.png);
+	border: 2px solid black;
+	box-shadow: 0 0 20px grey;
+	border-radius: 2px;
+}
+
+#Start{
+	position:absolute;
+	left: 50%;
+	margin-left: -25px;
+	margin-top: 200px;
+	background: black;
+	color: white;
+	border: 3px solid grey;
+	border-radius: 3px;
+}
+#Start:hover{
+	background: #180149;
+	color: yellow;
+	cursor: pointer;
+	border: 3px solid yellow;
+	border-radius: 3px;
+}
+#red,#green,#blue{position: absolute; border: 2px solid white; border-radius: 2px; font-weight: bold;}
+#red{background: red; margin-top:170px; left: 50%; margin-left: -37.5px;}
+#green{background: green; margin-top:195px;left: 50%; margin-left: -32.5px;}
+#blue{background: blue; margin-top:220px; left: 50%; margin-left: -25px;}
+#red:hover{background: black; color: red;}
+#green:hover{background: black; color: green;}
+#blue:hover{background: black; color: blue;}
+#red:hover,#green:hover,#blue:hover{
+	cursor: pointer;
+}
+.available,.inaccessible{
+	display: inline;
+	margin-left: 32px;
+	margin-top: 190px;
+	position: relative;
+	right: 20px;
+	border-radius: 5px;
+	border: 1px solid blue;
+	color: white;
+	background-color: black;
+}
+.inaccessible{
+	background-image: url(key.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	color: grey;
+}
+
+.available:focus{
+	background-color: red;
+}
+
+.available:hover{
+	cursor: pointer;
+	background-color: grey;
+	border: 1px solid black;
+}
+
+#back{
+	position: absolute;
+	width:50px;
+	margin-top: 280px;
+	left: 50%;
+	margin-left: -25px;
+	border:1px solid #EDE2E2;
+}
+#back:hover{
+	border:1px solid black;
+}
+
+.menu{
+	box-shadow: grey 0px 0px 10px;
+	text-decoration: none;
+	color:blue;
+	background-color: red;
+	border: 1px dashed white;
+	width: 50px;
+	height: 20px;
+	text-align: center;
+	position: absolute;
+	/*left: 82px;*/
+	top: 415px;
+	margin-left: -25px;
+	border-radius: 2px;
+	font-weight: bold;
+	font-style: cursive;
+}
+.menu:hover{
+	border:1px solid white;
+	color:white;
+}

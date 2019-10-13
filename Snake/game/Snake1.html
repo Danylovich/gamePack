@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+	<meta charset="UTF-8">
+	<title>Змійка</title>
+	<link rel="icon" href="snake — favicon.png" type="image/png">
+	<script src="jquery-3.4.1.min.js"></script>
+	<link rel="stylesheet" href="style_Snake.css" type="text/css">
+</head>
+<!-- <input type="color" id="clr"> -->
+<body onkeydown="keyHandler(event)">  
+	<canvas id="MyCanvas" width="600px" height="400px"></canvas>
+	<button id="Start" onclick="start()">Старт</button>
+	<button id="red" class="Color" onclick="red()">Червоний</button>
+	<button id="green" class="Color" onclick="green()">Зелений</button>
+	<button id="blue" class="Color" onclick="blue()">Синій</button>
+		<button id="a" onclick="level_1()" class="available">1</button>
+		<button id="b" onclick="level_2()" class="inaccessible">2</button>
+		<button id="c" onclick="level_3()" class="inaccessible">3</button>
+		<button id="d" onclick="level_4()" class="inaccessible">4</button>
+		<button id="e" onclick="level_5()" class="inaccessible">5</button>
+		<button id="f" onclick="level_6()" class="inaccessible">6</button>
+		<button id="g" onclick="level_7()" class="inaccessible">7</button>
+		<button id="h" onclick="level_8()" class="inaccessible">8</button>
+		<button id="i" onclick="level_9()" class="inaccessible">9</button>
+		<button id="j" onclick="level_10()" class="inaccessible">10</button><br>
+		<img src="back.png" alt="стрілка назад" onclick="Back()" id="back"> 
+	<a href="./../Snake.html" class="menu">Main</a>
+	<script src="Barrier.js"></script>
+	<script src="main.js"></script>
+</body>
+</html>
+
+<!-- inaccessible ні, available так -->

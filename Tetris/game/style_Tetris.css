@@ -1,0 +1,49 @@
+body{
+	background-color: #ff0;
+	text-align: center;
+}
+#Canvas{
+	margin-top: 69px;
+	border: 6px solid red;
+	border-radius: 10px;
+	background-color: #fff;
+	box-shadow: 0 0 20px grey;
+}
+#start{
+	position: absolute;
+	margin-left: 80px;
+	left: 50%;
+	top: 260px;
+	background-color: grey;
+	border: 2px solid black;
+	color:white;
+	font-weight: bold;
+	border-radius: 2px;
+}
+#start:hover{
+	border: 2px solid grey;
+	background: blue;
+	color: black;
+	cursor: pointer;
+}
+.menu{
+	box-shadow: grey 0px 0px 10px;
+	text-decoration: none;
+	color:blue;
+	background-color: red;
+	border: 1px dashed white;
+	width: 50px;
+	height: 20px;
+	text-align: center;
+	position: absolute;
+	left: 82px;
+	top: 465px;
+	margin-left: 50%;
+	border-radius: 2px;
+	font-weight: bold;
+	font-style: cursive;
+}
+.menu:hover{
+	border:1px solid white;
+	color:white;
+}

@@ -1,0 +1,64 @@
+body{
+	background-color: #ff0;
+	text-align: center;
+}
+
+#MyCanvas{
+	/*border: 5px solid black;*/
+	border: 2px solid black;
+	box-shadow: 0 0 20px grey;
+	border-radius: 2px 2px 0 0;
+}
+#canvasTwo{
+	position: absolute;
+	margin-left: -204px;
+	margin-top: 402px;
+	border: 2px solid black;
+	background-color: white;
+	border-radius: 0 0 2px 2px;
+}
+
+.menu{
+	box-shadow: grey 0px 0px 10px;
+	text-decoration: none;
+	color:blue;
+	background-color: red;
+	border: 1px dashed white;
+	width: 50px;
+	height: 20px;
+	text-align: center;
+	position: absolute;
+	/*left: 82px;*/
+	/*top: 415px;*/
+	/*margin-left: -25px;*/
+	border-radius: 2px;
+	font-weight: bold;
+	font-style: cursive;
+	top:505px;
+	left:50%;
+	margin-left: -25px;
+}
+.menu:hover{
+	border:1px solid white;
+	color:white;
+}
+
+#start{
+	position: absolute;
+	left:50%;
+	margin-left: -40px;
+	top: 185px;
+	width:80px;
+	height:30px;
+	border: 3px solid black;
+	border-radius: 3px;
+	font-size: 18px;
+	font-weight: bold;
+	color:black;
+	background-color: green;
+	box-shadow: yellow 0px 0px 10px;
+}
+#start:hover{
+	color: white;
+	background-color: #0f0;
+}

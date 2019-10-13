@@ -1,0 +1,54 @@
+body{
+	background-color: #ff0;
+	text-align: center;
+}
+
+#MyCanvas{
+	background-color: #fff;
+	border: 2px solid black;
+	box-shadow: 0 0 20px grey;
+	border-radius: 2px;
+}
+
+.menu{
+	box-shadow: grey 0px 0px 10px;
+	text-decoration: none;
+	color:blue;
+	background-color: red;
+	border: 1px dashed white;
+	width: 50px;
+	height: 20px;
+	position: absolute;
+	text-align: center;
+	border-radius: 2px;
+	font-weight: bold;
+	font-style: cursive;
+	left: 50%;
+	margin-left: -25px;
+	top: 518px;
+}
+.menu:hover{
+	border:1px solid white;
+	color:white;
+}
+
+#start{
+	position: absolute;
+	left: 50%;
+	margin-left: -60px;
+	top: 230px;
+	width: 120px;
+	height: 40px;
+	font-weight: bold;
+	font-size: 16px;
+	border: 3px solid black;
+	background-color: red;
+	border-radius: 10px;
+	color: white;
+	box-shadow: 0 0 20px white;
+}
+
+#start:hover{
+	color: black;
+	border-color: #54FF00;
+}

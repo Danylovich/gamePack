@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+	<meta charset="UTF-8">
+	<title>Шибениця</title>
+	<link rel="icon" href="gallows — favicon.png" type="image/png">
+	<link rel="stylesheet" type="text/css" href="style_Gallows.css">
+	<script src="jquery-3.4.1.min.js"></script>
+</head>
+<body onkeydown="keyHandler(event)">
+	<canvas id="MyCanvas"  width="1200px" height="400px"></canvas>
+	<!-- Код для ім'я першого гравця -->
+	<p id="p1" class="nameP">Введіть ім'я гравцець, який буде загадувати слово</p>
+	<input id="a1" type="text" class="nameInput"><br>
+	<button id='button_1' onclick='b1()' class="confirm">Підтвердьте</button>
+	<!-- / -->
+
+	<!-- Код для ім'я другого гравця -->
+	<p id="p2" class="nameP">Гравець 1 як вас звуть</p>
+	<input id="a2" type="text" class="nameInput"><br>
+	<button id='button_2' onclick='b2()' class="confirm">Підтвердьте</button>
+	<!-- / -->
+
+	<!-- Код для ім'я третього гравця -->
+	<p id="p3" class="nameP">Гравець 2 як вас звуть</p>
+	<input id="a3" type="text" class="nameInput"><br>
+	<button id='button_3' onclick='b3()' class="confirm">Підтвердьте</button>
+	<!-- / -->
+
+	<!-- Другий старт -->
+	<button id="button_z" onclick="bz()">Старт</button>
+	<!-- / -->
+
+	<!-- Код для виводу літер та для виводу результату -->
+	<input id="a4" type="text" readonly="readonly">
+	<input id="a5" type="text">
+	<input id="a6" type="text">
+	<br>
+	<p id="p4">Слово відгадка</p>
+	<button id="button_4" onclick="b4()" class="bConfirm">Oк</button>
+	<button id="button_5" onclick="b5()" class="bConfirm">Ок</button>
+	<br>
+	<button onclick="b_hint()" id="button_hint">Підказка викл.</button>
+	<p id="p5">Ніхто не вгадав загаданого слова</p>
+	<div id="hint">
+		<label id="label_a"></label> <br>
+		<hr>
+		<label id="label_b"></label> <br>
+		<hr>
+		<label id="label_c"></label>
+	</div>
+	
+	<!-- / -->
+	
+	<div id="block_Pause">
+		<button id="div_button_1" onclick="divb()">Продовжити ігру</button>
+		<a class="a" href="./../Gallows.html">Меню</a>
+	</div>
+
+	<div id="div_a" onclick="ab()"></div>
+	<a href="./../Gallow.html" id="Cansel">Меню</a>
+	<img src="Pause.png" id="Pause" onclick="Pause()">
+		<div id="Conclusion">
+			<h1 id="Conc_h1">Результат</h1>
+			<hr>
+			<p id="div_p_1" class="r"></p>
+			<p id="div_p_2" class="r"></p>
+			<p id="div_p_3" class="r"></p>
+			<hr>
+			<p id="time"></p>
+			<hr>
+		</div>
+
+	<b><p id="Message"></p></b>
+
+	<!-- jquery та скріпти -->
+	<script src="drawHangers.js"></script>
+	<script src="main.js"></script>
+	<!-- / -->
+	
+
+</body>
+</html>

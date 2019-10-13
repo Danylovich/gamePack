@@ -1,0 +1,96 @@
+body{
+	background-color: #ff0;
+	text-align: center;
+}
+
+#MyCanvas{
+	position: relative;
+	border: 2px solid black;
+	box-shadow: 0 0 20px grey;
+	border-radius: 2px;
+}
+
+#Start{
+	position: absolute;
+	left: 50%;
+	margin-left: -25px;
+	top:200px;
+	color: yellow;
+	background: red;
+	border-radius: 2px;
+	border: 2px solid black;
+}
+
+#Start:hover{
+	border-color: white;
+}
+
+#sOn,#sOff{
+	position: absolute;
+	top: 480px;
+	left: 50%;
+	margin-left: 110px;
+}
+
+.menu{
+	position: absolute;
+	box-shadow: grey 0px 0px 10px;
+	text-decoration: none;
+	color:blue;
+	background-color: red;
+	border: 1px dashed white;
+	width: 50px;
+	height: 20px;
+	text-align: center;
+	top: 488px;
+	margin-left: -280px;
+	border-radius: 2px;
+	font-weight: bold;
+	font-style: cursive;
+}
+.menu:hover{
+	border:1px solid white;
+	color:white;
+}
+
+kbd{
+	position: absolute;
+	font-weight: bold;
+	padding: 0px 5px;
+	width: 60px;
+	height: 15px;
+	background: #000;
+	color: #fff;
+	border-width:2px;
+	border-style: solid;
+	border-color: #606060 #D5D2D2 #D5D2D2 #606060;
+}
+
+#pr{
+	left: 50%;
+	margin-left: -140px;
+	top: 420px;
+}
+
+#prL{
+	position: absolute;
+	left: 50%;
+	margin-left: -60px;
+	top: 420px;
+}
+
+#z{
+	width: 8px;
+	position: absolute;
+	left: 50%;
+	margin-left: 60px;
+	top: 488px;
+}
+
+#zL{
+	position: absolute;
+	left: 50%;
+	margin-left: 90px;
+	top: 486px;
+
+}

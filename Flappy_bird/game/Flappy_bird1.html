@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+	<meta charset="UTF-8">
+	<title>Птах</title>
+	<script src="jquery-3.4.1.min.js"></script>
+	<link rel="icon" href="image/flappy_bird — favicon.png" type="image/png">
+	<link rel="stylesheet" href="style_Flappy_bird.css" type="text/css">
+</head>
+<body onkeydown="keyHandler(event)">
+	<canvas id="MyCanvas" style="border: 1px solid black;" width="288" height="512"></canvas>
+	<button id="Start" onclick="start()">Старт</button>
+	<kbd id="pr"> </kbd>
+	<label id="prL"> — ривок вгору</label>
+	<kbd id="z">z</kbd>
+	<label id="zL">—</label>
+	<script src="main.js"></script>
+	<a href="./../Flappy_bird.html" class="menu">Меню</a>
+	<img id="sOff" src="image/soundOff.png" alt="Виключити звук" onclick="on()">
+	<img id="sOn" src="image/soundOn.png" alt="Включити звук" onclick="off()">
+</body>
+</html>
